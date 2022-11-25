@@ -1,7 +1,7 @@
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
-local a = "Jum Puk"
+local a = "ΨΞΡ"
 local b = "AnimeDimension.lua"
 function saveSettings()
     local c = game:GetService("HttpService")
@@ -153,7 +153,7 @@ local r = {"Easy", "Hard", "Nightmare", "Infinite"}
 local s = {"Capsule Series 1", "Raid Capsule", "Gear 5 Fluffy Capsule", "Esper Capsule"}
 local t = { "Tengoku Raid", "Hirito Raid", "Titan Raid", "Chainsaw Raid" ,"Nardo Beast Raid","Cursed Sage Raid", "Christmas Raid","Combat Titan Raid", "Infinity Nojo Raid", "Gear 5 Fluffy Raid"}
 local u = loadstring(game:HttpGet("https://www.klgrth.io/paste/gs77p/raw"))()
-local v = u:MakeWindow({Name = "☀️ Jum Puk ☀️", HidePremium = true})
+local v = u:MakeWindow({Name = "❀ ΨΞΡ ❀", HidePremium = true})
 local w = v:MakeTab({Name = "Main", PremiumOnly = false})
 local x = v:MakeTab({Name = "Extra", PremiumOnly = false})
 local D = v:MakeTab({Name = "TP Method", PremiumOnly = false})
@@ -1942,8 +1942,8 @@ w:AddLabel("‼️ Auto Lvl + Raid + Boss Rush ")
 w:AddLabel("‼️ Specific + Raid + Boss Rush ")
 w:AddLabel("‼️ Trial + Raid + Boss Rush ")
 G:AddButton(
-    {Name = "Script by Jum Puk", Callback = function()
-            setclipboard("Jum Puk")
+    {Name = "Script by ΨΞΡ", Callback = function()
+            setclipboard("ΨΞΡ")
         end}
 )
 G:AddButton(
@@ -1960,5 +1960,5 @@ G:AddTextbox(
 
 G:AddLabel("LastestUpdate : 28/6/2022 ")
 
-u:MakeNotification({Name = "☀️ Jum Puk ☀️", Content = "Game: Anime Dimension", Time = 15})
+u:MakeNotification({Name = "❀ ΨΞΡ ❀", Content = "Game: Anime Dimension", Time = 15})
 u:Init()
